@@ -1,0 +1,25 @@
+% Jocobi
+J = \begin{bmatrix}
+^Wa_{1} \times (p_{7}-p_{1}) & ^Wa_{2} & -^Wa_{3} & ^Wa_{4} \times (p_{7}-p_{4})  & ^Wa_{5} \times (p_{7}-p_{5}) & ^Wa_{6} \times (p_{7}-p_{6})\\ 
+^Wa_{1} & 0 & 0 & ^Wa_{4} & ^Wa_{5} & ^Wa_{6}
+\end{bmatrix}
+
+
+% equation
+\begin{bmatrix}
+ p_{x}^{err}
+\\ p_{y}^{err}
+\\ p_{z}^{err}
+\\ w_{x}^{err}
+\\ w_{y}^{err}
+\\ w_{z}^{err}
+\end{bmatrix}
+
+= J\begin{bmatrix}
+\delta_{1}
+\\ d_{2}
+\\ d_{3}
+\\ \delta_{4}
+\\ \delta_{5}
+\\ \delta_{6}
+\end{bmatrix}
